@@ -45,13 +45,13 @@
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// |      |     | HME |  UP | END |PGUP |   |     |     |     |     |     |BT_CLR_ALL|
-// |      |     | LFT | DWN | RGT |NUM+ |   |     |     |     |     |     |      |
+// |      |     | HME |  UP | END |PGUP |   |     |     |     |     |     |      |
+// |      |     | LFT | DWN | RGT |NUM+ |   |     |     |     |     |     |BT_CLR_ALL|
 // |      |     |     |     |     |PGDN |   |     |     |     |     |     |      |
 //                    |     |     |     |   |     |     |     |
                         bindings = <
-   &trans  &trans  &kp HOME  &kp UP  &kp END  &kp PG_UP    &trans  &trans  &trans  &trans  &trans  &bt BT_CLR_ALL
-   &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp KP_PLUS    &trans  &trans  &trans  &trans  &trans  &trans
+   &trans  &trans  &kp HOME  &kp UP  &kp END  &kp PG_UP    &trans  &trans  &trans  &trans  &trans  &trans
+   &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp KP_PLUS    &trans  &trans  &trans  &trans  &trans  &bt BT_CLR_ALL
    &trans  &trans  &trans  &trans  &trans  &kp PG_DN    &trans &trans  &trans  &trans  &trans  &trans
                              &trans &trans &trans    &trans  &trans  &trans
                         >;
